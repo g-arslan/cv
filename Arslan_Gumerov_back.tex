@@ -1,0 +1,130 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{hyperref}
+% Set applicant's personal data for header
+\name{Arslan Gumerov}
+\address{Moscow, Russia}
+\contacts{+7 (919) 690-2097 \linebreak \mbox{arslan.gumerov99@gmail.com}} % TODO
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+
+	% Print the content
+
+
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Moscow, Russia}{National Research University Higher School of Economics}{Fall 2017 -- Present}
+
+                    \vskip 0.3cm
+
+			\begin{itemize}
+                            \item \textbf{Applied Mathematics and Information Science} Bachelor's Degree
+                            \item Anticipated Graduation in 2021
+                            \item Main courses: Linear Algebra, Algorithms and Data Structures
+			\end{itemize}
+		\end{cvsubsection}
+
+                \begin{cvsubsection}{Sochi, Russia}{Schoolarship at ``Sirius''}{January 2017}
+                    \begin{itemize}
+                        \item Education in Mathematics and Informatics
+                    \end{itemize}
+                \end{cvsubsection}
+
+	\end{cvsection}
+
+        \begin{cvsection}{Work Experience}
+            \begin{cvsubsection}{Moscow, Russia}{Yandex intern}{July -- October 2018}
+                \begin{itemize}
+                    \item I was developing Machine Learning library for extracting main content
+                        from the web page. This library is using in production tool
+                \end{itemize}
+            \end{cvsubsection}
+            \begin{cvsubsection}{Innopolis, Russia}{Competitive programming teacher}{July 2017}
+                \vskip 0.3cm
+                \begin{itemize}
+                    \item Lecture topics: Dynamic programming, Max-Flow, Combinatorial game theory, etc
+                    % \item Working as a teacher, I would give lectures which were liked by the students. They enjoyed the way I taught them because my classes were informative, interesting, and easy to understand
+                \end{itemize}
+            \end{cvsubsection}
+        \end{cvsection}
+
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Personal Projects}{}{}
+			\begin{itemize}
+                            \item \textbf{Scheduler} (2017) -- an application that makes a schedule for schools or universities using simulated annealing. Designed for \href{https://codeforces.com/contest/775/problem/A}{VK Cup 2017 - Wild Card Round 2} (C++)
+                                \item \textbf{Online Contest for School Students} (2015) -- designed the architecture that generates random variations of sets of questions (Python, Django)
+                                \item \textbf{Antiplagiarism} (2015) -- developed the script that detects plagiarism in competitive programming for \href{https://codeforces.com/contest/537/problem/A}{VK Cup 2015 - Wild Card Round 2} (C++)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Additional Experience and Awards}
+            \vskip 0.1cm
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+                            \item \textbf{Prizewinner} of the National Informatics Contest (2017)
+                            \item \textbf{Winner} of the Regional Informatics Contest (2017)
+                            \item \textbf{Silver medal} in the International Tournament in Informatics (2016)
+                            \item \textbf{Bronze medal} in the Open Programming Contest for School Students (2017)
+                            \item \textbf{Winner} of the Interregional Informatics Contest for School Students ``Vishaya Proba'' (2017)
+                            \item \textbf{Winner} of the Informatics Contest for School Students ``Lomonosov'' (2017)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Programming Skills}
+            \vskip 0.1cm
+		\begin{cvsubsection}{Languages}{}{}
+			\begin{itemize}
+                            \item Upper intermediate: C++
+                            \item Intermediate: Python
+			\end{itemize}
+		\end{cvsubsection}
+                \begin{cvsubsection}{Technologies and software}{}{}
+                    \begin{itemize}
+                        \item \textbf{Python Frameworks/Libraries:} Django, numpy, pandas, scipy, matplotlib
+                        \item \textbf{OS:} Linux, Windows
+                    \end{itemize}
+                \end{cvsubsection}
+	\end{cvsection}
+
+        \begin{cvsection}{About me}
+            \vskip 0.1cm
+            \begin{cvsubsection}{}{}{}
+                \begin{itemize}
+                    \item
+                        Software Engineer with some real world experience from Yandex internship.
+                        Work with passion on interesting
+                        problems. Not afraid to take them and be responsible for their results
+                \end{itemize}
+            \end{cvsubsection}
+        \end{cvsection}
+
+\end{document}
