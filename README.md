@@ -4,6 +4,11 @@ http://www.careercup.com/resume.
 
 The class is based on `article` class. The paper format is set to U.S. letterpaper by default. A template showing an example usage of the class is included.
 
+### Export
+Direct link: https://github.com/g-arslan/mcdowell-cv/raw/master/Arslan_Gumerov.2.pdf
+
+External link with a nice GDocs viewer: https://docs.google.com/viewerng/viewer?url=https://github.com/g-arslan/mcdowell-cv/raw/master/Arslan_Gumerov.2.pdf
+
 ## Screenshot
 <img src="https://github.com/dnl-blkv/mcdowell-cv/blob/master/McDowell_CV.png" width="240px"/>
 
